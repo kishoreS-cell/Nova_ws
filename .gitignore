@@ -1,3 +1,17 @@
-/.DS_Store
-/.metadata
-/Servers
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Eclipse workspace metadata
+.metadata/
+**/.metadata/
+
+# Java build output
+**/target/
+**/build/
+
+# Local email and database credentials
+LeaseApp/src/main/resources/config.properties
+
+# IDE server configuration
+Servers/
